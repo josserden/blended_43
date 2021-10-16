@@ -3,7 +3,7 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
   background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
@@ -17,7 +17,7 @@ body {
   letter-spacing: 0.03em;
 
   margin-bottom: 50px;
-}
+} */
 
 .container {
   width: 1200px;
@@ -47,8 +47,8 @@ body {
   padding-bottom: 50px;
 } */
 
-.thumb {
+/* .thumb {
   padding: 20px 24px;
   border: 1px solid red;
   border-top: none;
-}
+} */
