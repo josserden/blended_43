@@ -1,0 +1,94 @@
+:root {
+    --background-color:#EBEBEB;
+    --color-text-card:#FFFFFF;
+    --primary-text-color:#BDBDBD;
+
+
+
+}
+body {
+    background-color: var(--background-color);
+}
+h2,
+h3,
+p {
+    margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1242px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list {
+  list-style: none;
+}
+
+.text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.37;
+  text-align: left;
+  margin-bottom: 40px;
+  color: var(--primary-text-color);
+}
+
+
+.services-title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.43;
+  text-align: start;
+  margin-bottom: 102px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+  
+
+}
+.services-list .list {
+
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+
+}
+  
+.list-card {
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  right: 45px;
+  bottom: 45px;
+}
+
+.list-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--color-text-card);
+}
+
