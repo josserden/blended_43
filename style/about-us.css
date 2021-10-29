@@ -1,0 +1,135 @@
+
+:root{
+    --primary-text-color: #000000;
+    --accent-color: #005FA3;
+
+}
+ 
+ body{
+     
+     font-family: 'Lato', sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     
+   
+}
+h2, h3, p {
+    margin-top: 0;
+}
+
+.list{
+    list-style: none;
+}
+
+
+
+	/* ----about us----- */
+
+.container{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.block-left{
+    max-width: 445px;
+    margin-right: 125px;
+}
+
+.aboutus-section{
+    padding-top: 140px;
+    padding-bottom: 142px;
+}
+
+.sectoin-title{
+	
+
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+    line-height: 1.38;
+    color: #BDBDBD;
+}
+.aboutus-title{
+    margin-bottom: 60px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.44;
+}
+.aboutus-title-element{
+    color: var(--accent-color);
+}
+.aboutus-text{
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.39;
+
+    color: var(--primary-text-color);
+}
+.aboutus-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutus-link{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.aboutus-item:hover,
+.aboutus-item:focus{
+    background-color: var(--accent-color);
+}
+.aboutus-item:hover .link-text,
+.aboutus-item:focus .link-text{
+    color: #FFFFFF;
+
+}
+
+.aboutus-item{
+    width: 255px;
+    height: 255px;
+    background-color: #EBEBEB;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 100px;
+
+}
+.aboutus-item:nth-child(2n){
+    margin-left: 30px;
+}
+.aboutus-item:nth-last-child(-n + 2){
+    margin-top: 30px;
+}
+
+.aboutus-item .link-first-text{
+    
+     font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    margin-bottom: 30px;
+}
+.aboutus-item .link-second-text{
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;
+
+    color: var(--primary-text-color);
+}
+.link-title{
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--accent-color);
+    text-decoration-line: underline;
+    
+}

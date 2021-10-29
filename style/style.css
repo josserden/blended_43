@@ -2,6 +2,9 @@ body {
 	font-family: "Lato", sans-serif;
 	font-family: "Merriweather", serif;
 }
+ul {
+	list-style: none;
+}
 
 .section {
 	padding-top: 50px;
@@ -23,3 +26,5 @@ body {
 	color: #e85a19;
 	box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
+/* ----about us----- */
+
