@@ -1,0 +1,16 @@
+.team-list {
+}
+
+.team-item {
+  outline: 1px solid goldenrod;
+  height: 622px;
+  background: #f5f4fa;
+
+  @media screen and (min-width: 768px) {
+    height: 536px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 428px;
+  }
+}

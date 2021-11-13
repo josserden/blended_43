@@ -9,6 +9,12 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
 /* 💥 Стили для обнуления верхних отступов у элементов */
 h1,
 h2,
@@ -41,13 +47,14 @@ button {
   cursor: pointer;
 }
 /* 💥  Класс для обнуления базовых свойств у списков (ul) */
-.list {
+ul,
+ol {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 /* 💥 Класс для обнуления базовых свойств у ссылок */
-.link {
+a {
   text-decoration: none;
   color: inherit;
 }
